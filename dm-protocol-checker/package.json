@@ -1,0 +1,29 @@
+{
+  "name": "nostr-dm-protocol-checker",
+  "version": "1.0.0",
+  "description": "A tool to analyze Nostr DM protocols for privacy and security",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nostr",
+    "privacy",
+    "dm",
+    "encryption",
+    "nip-04",
+    "nip-17",
+    "nip-44"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "nostr-crypto-utils": "0.4.15",
+    "nostr-websocket-utils": "0.3.13"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
