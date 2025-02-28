@@ -16,6 +16,23 @@ A browser-based tool to analyze the security of Nostr direct messages (DMs). It 
 - Shows percentage of secure vs. insecure DMs
 - Client-side only processing (no server)
 
+**Supported Clients:**
+- Damus
+- Primal
+- Amethyst
+- Snort
+- Iris
+- Coracle
+- Nostros
+- Current
+- And many more via generic client tag detection
+
+**Supported Protocols:**
+- NIP-04 (Basic encryption)
+- NIP-17 (Improved with nonce)
+- NIP-44 (Modern encryption with forward secrecy)
+- Client-specific protocol implementations
+
 **Try it:**
 1. Clone this repository
 2. Navigate to the `dm-protocol-checker` directory
